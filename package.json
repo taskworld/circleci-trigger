@@ -1,0 +1,32 @@
+{
+  "name": "circleci-trigger",
+  "version": "1.0.0",
+  "description": "CLI script to trigger a CircleCI build",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "circleci-trigger": "./cli.js"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taskworld/circleci-trigger.git"
+  },
+  "keywords": [
+    "CircleCI"
+  ],
+  "author": "Thai Pangsakulyanont <org.yi.dttvb@gmail.com> (http://dt.in.th/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taskworld/circleci-trigger/issues"
+  },
+  "homepage": "https://github.com/taskworld/circleci-trigger#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "yargs": "^12.0.2"
+  }
+}
