@@ -1,6 +1,6 @@
 {
   "name": "circleci-trigger",
-  "version": "1.11.1",
+  "version": "1.11.11",
   "description": "CLI script to trigger a CircleCI build",
   "main": "index.js",
   "scripts": {
